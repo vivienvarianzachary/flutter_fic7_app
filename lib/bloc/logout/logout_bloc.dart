@@ -4,7 +4,7 @@ import 'package:freezed_annotation/freezed_annotation.dart';
 
 part 'logout_event.dart';
 part 'logout_state.dart';
-part 'logout_bloc.freezed.dart';
+part 'logout_bloc_freezed.dart';
 
 class LogoutBloc extends Bloc<LogoutEvent, LogoutState> {
   LogoutBloc() : super(const _Initial()) {
